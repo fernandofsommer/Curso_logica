@@ -1,0 +1,48 @@
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br");
+        document.write("<br");
+
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+
+}
+
+    function calculaImc(altura, peso) {
+
+        return peso / (altura * altura);
+
+}
+
+var nome = prompt(" Informe o seu nome");
+var alturaInformada = prompt(nome + ", Informe sua altura");
+var pesoInformado = prompt(nome + ", Informe seu peso");
+
+var imc = calculaImc(alturaInformada, pesoInformado);
+
+document.write(nome + ", o seu IMC calculado é " + imc);
+
+document.write("<b>");
+document.write("<br>");
+document.write("<br>");
+document.write("Quer saber mais sobre o assunto? Descubra visitando o site <a href=https://www.saudenaosepesa.com.br/diagnostico.html?utm_source=g-search&utm_medium=cpc&utm_content=texto&utm_term=normal&utm_campaign=ogilvybr_novo-nordisk_always-on-performance_g-search_cliques_202203_texto_cpc_calcule-imc&gclid=Cj0KCQjwpImTBhCmARIsAKr58cy2JYSJd-gPV-hwqwbBNRBG5ulwjsanyoo0CzdeKYp_eNeH61Fo23waAhfXEALw_wcB>aqui</a>!");
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
